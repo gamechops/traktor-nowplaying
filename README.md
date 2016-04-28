@@ -2,7 +2,7 @@
 Python2 script that works with Icecast2 to provide artist and track information to be ingested by video streaming or visualization packages.
 
 ## Requirements
-* python 2 and dependant modules:  requests, threading, logging, sys, time (all dependencies can be installed / updated via pip)
+* python 2 and dependant modules:  requests, logging, (all dependencies can be installed / updated via pip)
 * icecast2 (can be acquired from http://icecast.org/ or your OS'es source control)
 
 ## Configuration Instructions
