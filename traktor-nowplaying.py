@@ -1,9 +1,13 @@
-import requests, threading, logging, sys, time
+import requests, threading, logging, sys, time, ConfigParser
+
 
 ### 
 # START CONFIG
 
-icecastServerURL = "http://localhost:8000"
+Config = ConfigParser.SafeConfigParser()
+Config.read("traktor-nowplaying.ini")
+
+icecastServerURL = Config.get('nowplaying', 'icecast_url')
 
 # END CONFIG
 ###
