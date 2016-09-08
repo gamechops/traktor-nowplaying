@@ -7,7 +7,7 @@ Python2 script that works with Icecast2 to provide artist and track information 
 
 ## Configuration Instructions
 * Install a local Icecast2 server.  Consult Icecast's documentation if you have difficulties here. 
-* Edit the traktor-nowplaying.conf file.  A default Icecast2 install should use the pre-filled address and port number, but you should double check to make sure it conforms with how you have Icecast configured. 
+* Edit the traktor-nowplaying.ini file.  A default Icecast2 install should use the pre-filled address and port number, but you should double check to make sure it conforms with how you have Icecast configured. 
 * Configure Traktor to stream to the Icecast2 server.  Any bitrate and format is fine, but a low bitrate may save on CPU usage.  
 
 ## How to use
